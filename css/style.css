@@ -241,6 +241,7 @@ main {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin: 0 0 16px 0;
 }
 .team {
   background-color: #f4f4fd;
@@ -384,15 +385,21 @@ main {
   text-decoration: none;
 }
 .footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
   font-weight: 500;
   max-width: 264px;
+  margin-top: 0;
   margin-bottom: 16px;
   color: #ffffff;
 }
-.footer-social-link .team-social {
-  gap: 16px;
+.footer-social .team-social .item-social .link-social:hover,
+.footer-social .team-social .item-social .link-social:focus {
+  background-color: #31d0aa;
 }
-.visually-hidden {
+.footer-social .team-social .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
