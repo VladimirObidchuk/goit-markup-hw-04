@@ -395,11 +395,14 @@ main {
   margin-bottom: 16px;
   color: #ffffff;
 }
+.footer-social .team-social {
+  gap: 16px;
+}
 .footer-social .team-social .item-social .link-social:hover,
 .footer-social .team-social .item-social .link-social:focus {
   background-color: #31d0aa;
 }
-.footer-social .team-social .visually-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
